@@ -18,5 +18,19 @@ module.exports = {
       },
       __key: "images",
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Ayyoob Castro`,
+        short_name: `Ayyoob Castro`,
+        description: `My personal portfolio website`,
+        lang: `en`,
+        start_url: `/`,
+        background_color: `#000`,
+        theme_color: `#000`,
+        display: `standalone`,
+        icon: `src/images/icon.png`
+      },
+    },
   ],
 };
