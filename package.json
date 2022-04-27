@@ -5,7 +5,8 @@
   "description": "ayyoobcastro",
   "author": "ayyoobcastro",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "ayyoobcastro"
   ],
   "scripts": {
     "develop": "gatsby develop",
@@ -20,6 +21,7 @@
     "gatsby-plugin-gatsby-cloud": "^2.2.0",
     "gatsby-plugin-image": "^1.2.1",
     "gatsby-plugin-preload-fonts": "^2.2.0",
+    "gatsby-plugin-react-helmet": "^5.13.0",
     "gatsby-plugin-sass": "^4.2.0",
     "gatsby-plugin-sharp": "^3.2.1",
     "gatsby-source-filesystem": "^3.2.0",

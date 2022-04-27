@@ -3,10 +3,15 @@ import "./style/contact.scss";
 
 import Navbar from './components/navbar';
 import Footer from './components/footer/footer';
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
     return (
         <div className="sitebody">
+            <Helmet>
+                <title>Contact</title>
+                <link rel="canonical" href="https://ayyoobcastro.netlify.app/" />
+            </Helmet>
             <Navbar />
             <section className="contact">
                 <div className="container-2">

@@ -15,6 +15,9 @@ const Navbar = () => {
                         <Link to="/work/" className="menu__list__link">Works</Link>
                     </li>
                     <li className="menu__list">
+                        <Link to="/gallery/" className="menu__list__link">Gallery</Link>
+                    </li>
+                    <li className="menu__list">
                         <Link to="/contact/" className="menu__list__link">Contact</Link>
                     </li>
                 </ul>
